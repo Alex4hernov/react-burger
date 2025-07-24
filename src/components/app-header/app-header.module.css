@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131316;
+    padding: 16px 320px;
+  }
+  
+  .navList {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navItem {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px;
+    border-radius: 40px;
+    padding: 16px 20px;
+  }

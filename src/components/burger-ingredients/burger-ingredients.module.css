@@ -1,0 +1,63 @@
+.section {
+    padding: 24px;
+    width: 600px;
+    height: 912px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  
+  .list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 16px 24px 16px 40px;
+    margin: 0;
+  }
+  
+  .item {
+    position: relative;
+    width: calc((100% - 56px) / 2);
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .image {
+    width: 240px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+  
+  .priceRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .tabs {
+    display: flex;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .tab {
+    flex: 1;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .counter {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 1;
+  }
+  
